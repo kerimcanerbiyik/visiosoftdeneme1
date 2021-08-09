@@ -1,0 +1,44 @@
+resim=cv2.imread("1.jpg")
+cv2.imshow("1",resim)
+yukseklik = resim.shape[0]
+genislik = resim.shape[1]
+print('Resim Yüksekliði (px)      :', yukseklik)
+print('Resim Geniþliði  (px)     :', genislik)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+resim=cv2.imread("2.jpg")
+cv2.imshow("2",resim)
+yukseklik = resim.shape[0]
+genislik = resim.shape[1]
+print('Resim Yüksekliði (px)      :', yukseklik)
+print('Resim Geniþliði  (px)     :', genislik)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+resim=cv2.imread("3.jpg")
+cv2.imshow("3",resim)
+yukseklik = resim.shape[0]
+genislik = resim.shape[1]
+print('Resim Yüksekliði (px)      :', yukseklik)
+print('Resim Geniþliði  (px)     :', genislik)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+resim=cv2.imread("4.jpg")
+cv2.imshow("4",resim)
+yukseklik = resim.shape[0]
+genislik = resim.shape[1]
+print('Resim Yüksekliði (px)      :', yukseklik)
+print('Resim Geniþliði  (px)     :', genislik)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+resim=cv2.imread("yolyok.jpg")
+cv2.imshow("yolyok",resim)
+yukseklik = resim.shape[0]
+genislik = resim.shape[1]
+print('Resim Yüksekliði (px)      :', yukseklik)
+print('Resim Geniþliði  (px)     :', genislik)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
